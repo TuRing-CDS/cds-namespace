@@ -1,0 +1,29 @@
+{
+  "name": "cds-namespace",
+  "version": "0.0.2",
+  "description": "namespace",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuRing-CDS/cds-namespace.git"
+  },
+  "keywords": [
+    "namespace",
+    "cds"
+  ],
+  "author": "admin@cavacn.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuRing-CDS/cds-namespace/issues"
+  },
+  "homepage": "https://github.com/TuRing-CDS/cds-namespace#readme",
+  "dependencies": {
+    "debug": "^2.3.3"
+  }
+}
