@@ -15,4 +15,6 @@ ns.import(path.join(__dirname, "./api"), function (msg) {
     }
 });
 
-console.log(ns)
+var classA = ns.ns('api.demo.hello')
+
+let a = new classA();
