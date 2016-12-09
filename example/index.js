@@ -7,13 +7,7 @@ var ns = new Ns();
 
 var path = require("path");
 
-ns.import(path.join(__dirname, "./api"), function (msg) {
-    return {
-        use: function () {
-            console.log('....')
-        }
-    }
-});
+ns.import(path.join(__dirname, "./api"),'你好');
 
 var classA = ns.ns('api.demo.hello')
 
